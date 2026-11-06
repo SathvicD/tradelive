@@ -1,3 +1,4 @@
+
 ---
 - name: Deploy the Greeting application
   hosts: tradelive
@@ -5,7 +6,7 @@
 
   tasks:
     - name: Install Flask and Gunicorn
-      apt:
+     apt:
         name:
           - python3-flask
           - gunicorn
@@ -49,3 +50,4 @@
       systemd:
         name: greeting.service
         state: restarted
+
