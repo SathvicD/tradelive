@@ -2,3 +2,4 @@
 Stories: login, portfolio, buy, sell, history
 Edited on GitHub by Sathvic
 Buy order rule: quantity must be greater than zero
+# CI is watching this repository
