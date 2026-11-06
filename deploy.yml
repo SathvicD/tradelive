@@ -6,7 +6,7 @@
 
   tasks:
     - name: Install Flask and Gunicorn
-     apt:
+      apt:
         name:
           - python3-flask
           - gunicorn
